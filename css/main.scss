@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500");
+
+// Flex Styles
+.dFlex {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+.flex2 {
+    flex: 2;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justifyEnd {
+    justify-content: flex-end;
+}
+
+// Color
+$black: #4a4a4a;
+$blackOverlay: #4a4a4a80;
+$purple: #791e94;
+$teal: #41d3bd;
+$silver: #d8d8d8;
+$white: #fff;
+$whiteOverlay: #ffffff33;
+
+// BG
+.bgBlack {
+    background-color: $black;
+}
+.bgBlackOverlay {
+    background-color: $blackOverlay;
+}
+
+.bgWhiteOverlay {
+    background-color: $whiteOverlay;
+}
+
+.gradient {
+    background-image: linear-gradient($purple, $teal);
+}
+
+// Width and Height
+
+.fullScreen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fullSize {
+    width: 100%;
+    height: 100%;
+}
+
+.width560 {
+    width: 560px;
+}
+
+.width20 {
+    width: 20px;
+}
+
+.width3 {
+    width: 3px;
+}
+
+.height780 {
+    height: 780px;
+}
+
+.height110 {
+    height: 110px;
+}
+
+.height5 {
+    height: 5px;
+}
+
+// Absolute
+.absolute {
+    position: absolute;
+}
+
+// Font
+
+.fWhite {
+    color: $white;
+}
+.fTeal {
+    color: $teal;
+}
+.fQuicksand {
+    font-family: "Quicksand", sans-serif;
+}
+.fSize2 {
+    font-size: 2rem;
+}
